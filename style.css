@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #C7B7A3;
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    max-width: 600px;
+    background-color: #F1F1F1;
+    margin: 100px auto 20px;
+    border-radius: 2px;
+    padding: 20px 15px;
+    box-shadow: 8px 8px 10px rgb(0, 0, 0, 0.1);
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    border-bottom: 1.5px solid #C7B7A3;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    
+    /* filter: drop-shadow(2px 2px 2px); */
+    user-select: none;
+}
+
+.title h1{
+    font-size: 25px;
+    filter: drop-shadow(2px 2px 2px rgb(0,0,0,0.3));
+}
+
+.title img{
+    width: 25px;
+    transform: translateY(2px);
+    margin-left: 5px;
+    filter: drop-shadow(2px 2px 2px rgb(0,0,0,0.5));
+}
+
+.content{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.container label{
+    font-size: 17px;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    user-select: none;
+}
+
+.content label span{
+    color: red;
+}
+
+.container input{
+    width: 100%;
+    padding: 10px 10px;
+    border: 1px solid #C7B7A3;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 15px;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+    outline: none;
+}
+
+.btn{
+    margin-bottom: 20px;
+}
+
+.btn button{
+    padding: 8px 28px;
+    margin-right: 10px;
+    border: none;
+    background-color: #006769;
+    color: #fff;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    opacity: 90%;
+}
+
+.btn button:active{
+    opacity: 70%;
+}
+
+ul{
+    margin-bottom: 20px;
+}
+
+ul li{
+    list-style: none;
+    width: 100%;
+    /* height: 20px; */
+    background-color: #40A578;
+    margin-bottom: 10px;
+    padding: 13px 10px;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    user-select: none;
+}
+
+.price-box{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+#total-price {
+    background-color: #BBE2EC;
+    user-select: none;
+    padding: 10px 30px;
+    border-radius: 2px;
+
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    body{
+        padding: 10px;
+    }
+
+    .container{
+        max-width: 355px;
+    }
+
+    .title h1{
+        font-size: 20px;
+    }
+
+}

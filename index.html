@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expanse Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./image/icons8-pen-16.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Expanse Tracker</h1>
+            <img src="./image/icons8-paper-64.png" alt="icon of a paper">
+        </div>
+
+        <div class="content">
+            <!-- <h3 id="itemName">Item Name<span>&#58;</span></h3> -->
+            <label for="itemName">Item Name<span>&#58;</span></label>
+            <input type="text" name="" id="itemName" placeholder="Enter your item name">
+
+            <!-- <h3>Item Amount<span>&#58;</span></h3> -->
+            <label for="itemAmount">Item Amount<span>&#58;</span></label>
+            <input type="number" id="itemAmount" placeholder="Enter amount" min="0">
+
+
+        </div>
+        <div class="btn">
+            <button>Add</button>
+            <button>Clear All</button>
+        </div>
+
+        <ul id="item-list">
+            <li>Apple: ₹100.00</li>
+            <li>Mango: ₹80.00</li>
+            <li>Masala Item: ₹170.00</li>
+        </ul>
+        <div class="price-box">
+            <h3 id="total-price" >₹350.00</h3>
+        </div>
+    </div>
+</body>
+</html>
